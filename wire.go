@@ -11,5 +11,5 @@ import (
 )
 
 func initServer() (server.Server, error) {
-	panic(wire.Build(service.ProviderSet, repo.ProviderSet, newAppMineImpl, newServer))
+	panic(wire.Build(repo.ProviderSet, service.ProviderSet, newAppMineImpl, newServer))
 }

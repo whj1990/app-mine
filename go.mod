@@ -3,7 +3,7 @@ module github.com/whj1990/app-mine
 go 1.18
 
 require (
-	github.com/apache/thrift v0.17.0
+	github.com/apache/thrift v0.13.0
 	github.com/cloudwego/kitex v0.4.4
 	github.com/google/wire v0.5.0
 	github.com/whj1990/go-core v0.0.0-20230129075933-3330ebde0054
