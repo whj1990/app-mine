@@ -6,7 +6,7 @@ init:
 
 .PHONY: thrift
 thrift:
-	kitex -module app-mine -service app-mine mine.thrift
+	kitex -module github.com/whj1990/app-mine -service app-mine mine.thrift
 
 .PHONY: wire
 wire:

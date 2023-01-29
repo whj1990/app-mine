@@ -1,8 +1,8 @@
 package main
 
 import (
-	api "app-mine/kitex_gen/api"
 	"context"
+	api "github.com/whj1990/app-mine/kitex_gen/api"
 )
 
 // AppMineImpl implements the last service interface defined in the IDL.
