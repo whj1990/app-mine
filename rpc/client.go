@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func NewRecommendClient() appmine.Client {
+func NewMineClient() appmine.Client {
 	client, err := appmine.NewClient(
 		config.GetString("app.recommend.name", ""),
 		util.GetClientOption(config.GetString("app.recommend.port", "")),
