@@ -11,8 +11,8 @@ import (
 
 func NewMineClient() appmine.Client {
 	client, err := appmine.NewClient(
-		config.GetString("app.recommend.name", ""),
-		util.GetClientOption(config.GetString("app.recommend.port", "")),
+		config.GetString("app.mine.name", ""),
+		util.GetClientOption(config.GetString("app.mine.port", "")),
 		client.WithRPCTimeout(5*60*time.Second),
 		client.WithSuite(trace.NewClientSuite()),
 	)
