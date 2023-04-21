@@ -1,6 +1,6 @@
 module github.com/whj1990/app-mine
 
-go 1.18
+go 1.19
 
 require (
 	github.com/apache/thrift v0.13.0
